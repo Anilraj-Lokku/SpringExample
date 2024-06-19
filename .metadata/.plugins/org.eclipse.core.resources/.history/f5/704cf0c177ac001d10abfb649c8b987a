@@ -1,0 +1,26 @@
+package dataofstudents;
+
+public class Student {
+	int id;
+	String Name ;
+	 String CollegeName="Raghu Enigineering college";
+	
+	Student(int r , String n){
+		id = r;
+		Name = n ;
+		
+	}
+	void display() {
+		System.out.println(id+" "+Name+" "+CollegeName);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student a1 = new Student( 11 , "Ganesh");
+		Student a2 = new Student( 21 , "praveen");
+		a1.display();
+		a2.display();
+	}
+
+}

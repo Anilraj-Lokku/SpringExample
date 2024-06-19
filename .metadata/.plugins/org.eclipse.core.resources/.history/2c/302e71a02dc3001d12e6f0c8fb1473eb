@@ -1,0 +1,22 @@
+package javaprogramns;
+
+ class Anil {
+	void run() {
+		System.out.println("bike is runnig");
+	}
+	public class Bike extends Anil{
+		void run() {
+			System.out.println("Anilo is fat");
+		}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Anil abc = new Anil();
+		abc.run();
+
+	}
+
+}
+}
+

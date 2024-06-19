@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.Anil.isPalindromePassobile.java&apos; to &apos;isPalindromePossible.java&apos;&#x0D;&#x0A;- Original project: &apos;Wipro9&apos;&#x0D;&#x0A;- Original element: &apos;com.Anil.isPalindromePassobile.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Anil.isPalindromePossible.java&apos;" description="Rename compilation unit &apos;isPalindromePassobile.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.Anil{isPalindromePassobile.java" name="isPalindromePossible.java" references="false" stamp="1718394849592" version="1.0"/>
+</session>

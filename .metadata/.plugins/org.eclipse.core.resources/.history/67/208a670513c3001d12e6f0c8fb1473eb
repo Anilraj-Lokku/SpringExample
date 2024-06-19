@@ -1,0 +1,20 @@
+package javaprogramns;
+
+
+class Anil{
+	String name =" Ganesh";
+}
+ class Praveen extends Anil{
+	 String name =" Prasanth";
+ void PrrintName() {
+	 System.out.println(name);
+	 System.out.println(super.name);
+ }
+public class Super {
+	public static void main(String[] args) {
+		Praveen abc = new Praveen()	;
+		abc.PrrintName();
+	}
+}
+
+}

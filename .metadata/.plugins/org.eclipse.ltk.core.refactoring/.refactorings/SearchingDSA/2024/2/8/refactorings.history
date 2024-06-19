@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Ceiling.binarySearch(...)&apos; to &apos;ceilingNumber&apos;&#x0D;&#x0A;- Original project: &apos;SearchingDSA&apos;&#x0D;&#x0A;- Original element: &apos;Ceiling.binarySearch(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;Ceiling.ceilingNumber(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;binarySearch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Ceiling.java[Ceiling~binarySearch~\[I~I" name="ceilingNumber" references="true" stamp="1708543862895" version="1.0"/>
+</session>

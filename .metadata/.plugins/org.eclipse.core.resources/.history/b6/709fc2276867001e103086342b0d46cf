@@ -1,0 +1,30 @@
+
+
+class Vehicle{
+	void Run() {
+		System.out.println("Vehicle Name is Honda");
+	}
+}
+class Car extends Vehicle{
+	int Wheels;
+	Car(int W){
+		this.Wheels=W;}
+	void Run() {
+		System.out.println("Car is runnig");
+		System.out.println("The Number of wheels ;" + Wheels);
+	}
+	
+}
+
+public class Main{
+	public static void main(String[] args) {
+		System.out.println("This is example of inheritance");
+
+		Car car = new Car(4);
+
+		 car.Run();
+		 car.Name();
+	}
+}
+
+

@@ -1,0 +1,30 @@
+package javaprogramns;
+
+
+class Anil{
+	void eat() {
+		System.out.println("i am eating");
+	}
+	String name =" Ganesh";
+}
+ class Praveen extends Anil{
+	 void eat() {
+		 System.out.println("i am  the who will become king of pirates");
+	 }
+	 String name =" Prasanth";
+ void PrrintName() {
+	 System.out.println(name);
+	 System.out.println(super.name);
+	super.eat();
+	eat();
+	 
+ }
+ }
+public class Super {
+	public static void main(String[] args) {
+		Praveen abc = new Praveen()	;
+		abc.PrrintName();
+	}
+}
+
+

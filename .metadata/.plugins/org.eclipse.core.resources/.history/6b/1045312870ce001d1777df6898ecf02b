@@ -1,0 +1,11 @@
+package com.anil;
+
+public class NumberFunction {
+
+public static void main(String[] args) {
+	
+}
+static void print1(int n) {
+	System.out.println(n);
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CollectionsExamples.HashTable&apos; to &apos;HashTableExample&apos;&#x0D;&#x0A;- Original project: &apos;JavaCollectionsLists&apos;&#x0D;&#x0A;- Original element: &apos;CollectionsExamples.HashTable&apos;&#x0D;&#x0A;- Renamed element: &apos;CollectionsExamples.HashTableExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HashTable&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;CollectionsExamples{HashTable.java[HashTable" matchStrategy="1" name="HashTableExample" qualified="false" references="true" similarDeclarations="false" stamp="1679318145950" textual="false" version="1.0"/>
+</session>

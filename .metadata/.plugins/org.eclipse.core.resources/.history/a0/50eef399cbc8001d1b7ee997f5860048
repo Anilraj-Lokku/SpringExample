@@ -1,0 +1,11 @@
+package org.springframework.beans.factory.xml;
+
+import org.springframework.core.io.Resource;
+
+public class XmlBeanFactory {
+
+	public XmlBeanFactory(Resource resource) {
+		// TODO Auto-generated constructor stub
+	}
+
+}
