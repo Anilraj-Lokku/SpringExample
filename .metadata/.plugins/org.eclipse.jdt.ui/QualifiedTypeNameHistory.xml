@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="example.Contact"/>
+    <fullyQualifiedTypeName name="com.javatpoint.entity.Product"/>
+    <fullyQualifiedTypeName name="com.javatpoint.entity.Category"/>
+    <fullyQualifiedTypeName name="com.javatpoint.service.CategoryService"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="com.hungryfood.entity.Food"/>
+    <fullyQualifiedTypeName name="com.hungryfood.api.FoodApi"/>
+    <fullyQualifiedTypeName name="com.hungryfood.model.Food"/>
+    <fullyQualifiedTypeName name="com.anil.model.Food"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient.Builder"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplier"/>
+</qualifiedTypeNameHistroy>

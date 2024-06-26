@@ -1,0 +1,5 @@
+package com.hungryfood.service;
+
+public class FoodService {
+
+}

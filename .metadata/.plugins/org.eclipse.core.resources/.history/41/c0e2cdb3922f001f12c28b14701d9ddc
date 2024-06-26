@@ -1,0 +1,5 @@
+package com.anil.repository;
+
+public class FoodRepository {
+
+}

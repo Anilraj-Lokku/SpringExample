@@ -1,0 +1,2 @@
+spring.application.name=E-commerce-Project-1
+server.port=8080

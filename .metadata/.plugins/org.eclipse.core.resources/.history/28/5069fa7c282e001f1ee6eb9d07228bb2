@@ -1,0 +1,38 @@
+package com.hungryfood.service;
+
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hungryfood.entity.Food;
+import com.hungryfood.repository.FoodRepository;
+
+@Service
+public class FoodService {
+    @Autowired
+    private FoodRepository foodRepository;
+    
+    public Food create(Food food) {
+        return foodRepository.save(food);
+    }
+    
+    public List<Food> read() {
+        return foodRepository.findAll();
+    }
+    
+    public Food read(Long id) {
+        Optional<Food> food = foodRepository.findById(id);
+        return food.orElse(null);
+    }
+    
+    public Food update(Food food) {
+        return foodRepository.save(food);
+    }
+    
+    public void delete(Long id) {
+        foodRepository.deleteById(id);
+    }
+}

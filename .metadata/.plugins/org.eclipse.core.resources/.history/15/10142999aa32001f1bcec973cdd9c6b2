@@ -1,0 +1,13 @@
+package com.example.Loadbalancer_1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Loadbalancer1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Loadbalancer1Application.class, args);
+	}
+
+}

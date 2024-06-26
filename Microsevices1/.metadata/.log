@@ -1,0 +1,1076 @@
+!SESSION 2024-06-26 11:23:23.615 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\ANIL\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Microsevices1 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-26 11:23:24.570
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-06-26 11:23:27.104
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-26 11:23:27.104
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-26 11:23:30.202
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ANIL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:53.441
+!MESSAGE Classpath changed for project: customer-rest-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:54.426
+!MESSAGE Classpath changed for project: customer-rest-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:54.428
+!MESSAGE Boot project ADDED: customer-rest-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:54.428
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:54.445
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-26 11:24:54.458
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ANIL\Downloads\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\ANIL\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\ANIL\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\ANIL\Downloads\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/ANIL/Documents/workspace-spring-tool-suite-4-4.19.0.RELEASE/Microsevices1/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1719381294457
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:54.459
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-26 11:24:54.468
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 33612
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-26 11:24:54.493
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:24:55.548
+!MESSAGE Classpath changed for project: customer-rest-api
+
+!ENTRY Activator 4 0 2024-06-26 11:36:46.283
+!MESSAGE Exception: A resource exists with a different case: '/customer-rest-api'.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:91)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/customer-rest-api'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:61)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:272)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:258)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:837)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:130)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	... 6 more
+Caused by: java.lang.Exception: A resource exists with a different case: '/customer-rest-api'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 21 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException(/customer-rest-api)[275]: java.lang.Exception: A resource exists with a different case: '/customer-rest-api'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:61)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:272)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:258)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:837)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:130)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:37:23.921
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:37:23.922
+!MESSAGE Boot project ADDED: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:37:24.919
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:37:25.604
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:38:27.581
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:39:30.270
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:39:43.508
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:40:23.339
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.eclipse.jface 2 0 2024-06-26 11:41:01.363
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-26 11:41:01.363
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 11:41:10.004
+!MESSAGE Could not get hover region due to timeout after 1000 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-26 11:41:10.028
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:41:12.992
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:41:14.192
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:41:17.849
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:41:42.459
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:41:52.986
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:42:24.480
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:43:05.248
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:43:07.630
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:43:54.126
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:44:20.617
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:45:07.466
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:46:00.587
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:49:16.524
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 11:49:49.910
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:12:40.129
+!MESSAGE Classpath changed for project: eureka-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:12:40.134
+!MESSAGE Boot project ADDED: eureka-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:12:40.865
+!MESSAGE Classpath changed for project: eureka-Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:13:44.166
+!MESSAGE Classpath changed for project: eureka-Server1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:13:44.167
+!MESSAGE Boot project ADDED: eureka-Server1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:13:44.807
+!MESSAGE Classpath changed for project: eureka-Server1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:46:02.322
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:46:04.120
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:46:08.018
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:46:08.022
+!MESSAGE Boot project ADDED: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:46:09.788
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:47:39.725
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:48:38.599
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:49:43.510
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:50:22.298
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:50:50.967
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:51:44.051
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:52:52.030
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:53:25.622
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 12:53:37.964
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:10:37.276
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:10:39.157
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:10:41.537
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:10:41.538
+!MESSAGE Boot project ADDED: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:10:42.576
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:11:51.178
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:12:47.318
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:17:32.871
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:20:07.238
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:20:53.638
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:22:40.924
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:24:26.462
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:28:17.229
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:32:04.859
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:44:39.734
+!MESSAGE Could not get hover region due to timeout after 1000 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-26 13:44:40.620
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:45:51.337
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:45:56.849
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:45:57.062
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:45:57.455
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:46:06.134
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:46:07.433
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:46:11.509
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:46:12.340
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:46:43.090
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:46:44.374
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:46:59.349
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:47:00.142
+!MESSAGE Classpath changed for project: SalesRest-Api
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-26 13:48:43.540
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.offsetByLine(TreeLineTracker.java:335)
+	at org.eclipse.jface.text.TreeLineTracker.getLineOffset(TreeLineTracker.java:1111)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:252)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineOffset(BasicStructuredDocument.java:1499)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:184)
+	at org.eclipse.lsp4e.operations.documentLink.LSPDocumentLinkPresentationReconcilingStrategy.underline(LSPDocumentLinkPresentationReconcilingStrategy.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.eclipse.lsp4e.operations.documentLink.LSPDocumentLinkPresentationReconcilingStrategy.lambda$2(LSPDocumentLinkPresentationReconcilingStrategy.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:48:46.902
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:48:48.230
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 13:48:52.506
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:48:55.233
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:48:56.502
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:49:01.319
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:49:02.152
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:49:02.705
+!MESSAGE Classpath changed for project: CustomerRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:49:12.785
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:49:13.454
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:57:50.023
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:57:51.792
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:57:51.794
+!MESSAGE Boot project ADDED: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:57:53.090
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:57:53.764
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:58:25.673
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:58:31.881
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:58:48.636
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:58:56.419
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:59:10.668
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:59:23.399
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 13:59:53.227
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 14:00:27.200
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 14:00:47.705
+!MESSAGE Classpath changed for project: SpringMVC-ECOM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:10.860
+!MESSAGE Classpath changed for project: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:37.360
+!MESSAGE Classpath changed for project: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:37.371
+!MESSAGE Boot project ADDED: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:37.930
+!MESSAGE Classpath changed for project: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:43.607
+!MESSAGE Classpath changed for project: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:06:56.481
+!MESSAGE Classpath changed for project: JtSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:12.292
+!MESSAGE Classpath changed for project: bookStore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:12.297
+!MESSAGE Boot project ADDED: bookStore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-06-26 15:10:12.301
+!MESSAGE <project root> [in bookStore] is not on its project's build path
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): <project root> [in bookStore] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:143)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:87)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2024-06-26 15:10:12.304
+!MESSAGE <project root> [in bookStore] is not on its project's build path
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:13.983
+!MESSAGE Classpath changed for project: bookStore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:16.386
+!MESSAGE Classpath changed for project: bookStore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:17.837
+!MESSAGE Classpath changed for project: bookStore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:10:30.180
+!MESSAGE Classpath changed for project: bookStore
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:34.898
+!MESSAGE Classpath changed for project: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:34.900
+!MESSAGE Boot project ADDED: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:35.397
+!MESSAGE Classpath changed for project: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:38.754
+!MESSAGE Classpath changed for project: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:40.299
+!MESSAGE Classpath changed for project: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:17:48.774
+!MESSAGE Classpath changed for project: 07-jun-mvc-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:32:16.815
+!MESSAGE Classpath changed for project: SpringMVC-ECOM-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:32:16.820
+!MESSAGE Boot project ADDED: SpringMVC-ECOM-1
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-06-26 15:32:16.979
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-06-26 15:32:16.980
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-06-26 15:32:16.982
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-06-26 15:32:16.982
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-06-26 15:32:16.983
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:32:21.012
+!MESSAGE Classpath changed for project: SpringMVC-ECOM-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-06-26 15:32:21.044
+!MESSAGE target/generated-sources/annotations [in SpringMVC-ECOM-1] is not on its project's build path
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): target/generated-sources/annotations [in SpringMVC-ECOM-1] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:543)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:143)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:87)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2024-06-26 15:32:21.046
+!MESSAGE target/generated-sources/annotations [in SpringMVC-ECOM-1] is not on its project's build path
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:32:21.999
+!MESSAGE Classpath changed for project: SpringMVC-ECOM-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 15:32:24.605
+!MESSAGE Classpath changed for project: SpringMVC-ECOM-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:22.944
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:22.949
+!MESSAGE Boot project ADDED: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:25.288
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:27.653
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:29.110
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 16:56:40.792
+!MESSAGE Could not detect hyperlinks due to timeout after 800 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:68)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:44.740
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:44.925
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:45.207
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 16:56:47.462
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:02:29.549
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:03:23.816
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:03:38.635
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:04:16.647
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:05:19.119
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:05:33.914
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:15:41.078
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:16:02.755
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:16:23.847
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:23:09.791
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:23:36.757
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:16.972
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:18.720
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:20.872
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:20.874
+!MESSAGE Boot project ADDED: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:22.155
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:47.908
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:24:55.352
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 17:25:54.188
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:26:36.749
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:27:03.080
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:28:07.969
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:28:12.858
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:31:40.166
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:32:41.057
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:33:02.819
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:33:16.815
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:34:29.056
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:39:41.195
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:39:46.554
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:47:55.530
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:48:20.220
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:48:40.036
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:51:26.733
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:51:59.975
+!MESSAGE Classpath changed for project: ecom-mvc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:52:21.484
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 17:52:42.401
+!MESSAGE Classpath changed for project: ecom-mvc2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-26 18:48:53.880
+!MESSAGE Classpath changed for project: ProductRest-Api
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-26 22:23:10.396
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

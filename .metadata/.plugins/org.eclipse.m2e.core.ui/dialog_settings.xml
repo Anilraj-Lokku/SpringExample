@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ANIL\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\DemoProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ANIL\Downloads\Loadbalancer-1\Loadbalancer-1"/>
+			<item value="C:\Users\ANIL\Downloads\wipro5-jag (3)\wipro5-jag\Spring\food-rest-api"/>
+			<item value="C:\Users\ANIL\Downloads\wipro5-jag (3)\wipro5-jag\Spring\food-mvc"/>
+			<item value="C:\Users\ANIL\Downloads\wipro5-jag (2)\wipro5-jag\Spring\food-rest-api"/>
+			<item value="C:\Users\ANIL\Downloads\Spring-MVC-product-and-category-master"/>
+			<item value="C:\Users\ANIL\Downloads\Wipro-PJP-main"/>
+			<item value="C:\Users\ANIL\Downloads\wipro5-jag (1)\wipro5-jag\Spring\19-jun-relationship"/>
+			<item value="C:\Users\ANIL\Downloads\14-jun-rest-1"/>
+			<item value="C:\Users\ANIL\Downloads\14-jun-mvc\14-jun-mvc"/>
+			<item value="C:\Users\ANIL\Downloads\demo2"/>
+			<item value="C:\Users\ANIL\Downloads\Enhacing the Hello World Service to Return a Bean\Enhacing the Hello World Service to Return a Bean"/>
+			<item value="C:\Users\ANIL\Downloads\Creating a Hello World Service\Creating a Hello World Service\restful-web-services"/>
+			<item value="C:\Users\ANIL\Downloads\Creating a Hello World Service"/>
+			<item value="C:\Users\ANIL\Downloads\Initializing a RESTful Web Service with Spring Boot"/>
+			<item value="C:\Users\ANIL\Downloads\apache-derby-example"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

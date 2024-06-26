@@ -1,0 +1,5 @@
+package com.hungryfood.controller;
+
+public class FoodController {
+
+}

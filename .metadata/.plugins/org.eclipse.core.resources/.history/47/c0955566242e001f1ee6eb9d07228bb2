@@ -1,0 +1,5 @@
+package com.hungryfood.entity;
+
+public class Food {
+
+}
